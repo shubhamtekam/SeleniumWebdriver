@@ -11,7 +11,7 @@ public class DyanamicTable {
 
 	public static void main(String[] args) {
 		WebDriver driver = new ChromeDriver();
-		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 		
 		driver.get("https://testautomationpractice.blogspot.com/");
 		driver.manage().window().maximize();
